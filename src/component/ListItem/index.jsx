@@ -33,7 +33,7 @@ const ListItem = (props) => {
 
       }
 
-    const response= await fetch(`https://backendtask28upskillmafia.onrender.coms/api/v1/updateproduct/${_id}`,options)
+    const response= await fetch(`https://backendtask28upskillmafia.onrender.com/api/v1/updateproduct/${_id}`,options)
     const data= await response.json()
     console.log("Updated data",data)
 
