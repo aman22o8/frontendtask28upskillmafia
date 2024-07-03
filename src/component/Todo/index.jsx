@@ -130,6 +130,7 @@ const Todo = () => {
   return (
     <div className=' flex flex-col justify-center items-center'>
         <h1 className='text-[35px] font-bold'>Todo</h1> 
+        <h1 className='text-[28px] font-bold'>Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.</h1> 
         <form className=' w-[90%] border-2 border-indigo-500 rounded-[5px] p-[10px] flex flex-col justify-center items-center' onSubmit={handleSubmit}>
             <label className='mt-[20px] text-[20px] font-bold self-start' htmlFor='title'>TITLE</label>
             <input className='border-2 border-lime-500 rounded-[5px] pl-[10px] h-[30px] w-[100%]' value={addtodo.title} onChange={handleChange} type="text" name="title" id="title" placeholder='Eg. React' />
